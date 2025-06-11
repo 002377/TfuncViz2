@@ -1,3 +1,4 @@
+# prepare
 ```r
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
@@ -31,7 +32,7 @@ results <- analyze_tcell_functionality(seurat_obj)
 plot <- plot_tfunc_bubble(results)
 print(plot)
 ```
-#pipeline
+# pipeline
 ```r
 ## Using default gene sets
 results <- analyze_tcell_functionality(seurat_obj)
