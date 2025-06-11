@@ -2,7 +2,7 @@ Package: TfuncViz
 Title: T Cell Functionality Visualization
 Version: 0.1.0
 Authors@R: 
-    person( "Reon","Zhan", "2974249021@qq.com", role = c("aut", "cre"))
+    person("Zhan", "YourLastName", email = "2974249021@qq.com", role = c("aut", "cre", "ctr"))
 Description: Tools for analyzing and visualizing T cell functionality scores from single-cell RNA-seq data. 
     Includes PCA-based visualization, heatmaps, and comparison plots between disease and healthy conditions.
 License: MIT + file LICENSE
