@@ -1,3 +1,4 @@
+```r
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 BiocManager::install("ComplexHeatmap")  
@@ -21,18 +22,22 @@ library(grDevices)
 library(grid)
 devtools::install_github("002377/TfuncViz2")
 library(TfuncViz)
+```
 
 # example
+```r
 seurat_obj <- ...  # yours Seurat object
 results <- analyze_tcell_functionality(seurat_obj)
 plot <- plot_tfunc_bubble(results)
 print(plot)
-
+```
 #pipeline
-# Using default gene sets
+```r
+## Using default gene sets
 results <- analyze_tcell_functionality(seurat_obj)
 
 # Using custom gene sets
+
 my_gene_sets <- list(
   Cytotoxic = c("GZMB", "PRF1", "GNLY"),
   Helper = c("IL2", "IL4", "IL21"),
@@ -49,3 +54,4 @@ results <- analyze_tcell_functionality(seurat_obj, output_dir = "plots/")
 
 # Extract the updated Seurat object
 seurat_obj <- results$seurat_obj
+```
