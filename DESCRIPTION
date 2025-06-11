@@ -1,0 +1,31 @@
+Package: TfuncViz
+Title: T Cell Functionality Visualization
+Version: 0.1.0
+Authors@R: 
+    person( "Zhan" , "2974249021@qq.com", role = c("aut", "cre"))
+Description: Tools for analyzing and visualizing T cell functionality scores from single-cell RNA-seq data. 
+    Includes PCA-based visualization, heatmaps, and comparison plots between disease and healthy conditions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    Seurat,
+    tidyverse,
+    dplyr,
+    ggplot2,
+    patchwork,
+    ggrepel,
+    ggforce,
+    RColorBrewer,
+    ComplexHeatmap,
+    circlize,
+    GGally,
+    data.table,
+    stats,
+    utils,
+    grDevices,
+    grid
+Depends: 
+    R (>= 4.0.0)
+LazyData: true
