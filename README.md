@@ -1,3 +1,8 @@
+# created by 詹睿炀
+
+# introduction
+![WechatIMG1367 1](https://github.com/user-attachments/assets/e4efbbd5-bee3-4ee2-9ddd-bafcf1157d68)
+
 # prepare
 ```r
 if (!requireNamespace("BiocManager", quietly = TRUE))
